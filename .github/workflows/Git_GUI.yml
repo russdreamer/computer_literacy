@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ git_gui ]
 
 jobs:
   build:
@@ -13,4 +13,6 @@ jobs:
       
     - name: check homework "Git GUI"
       shell: bash
-      run: scripts/homework1.sh
+      run: | 
+        chmod +x scripts/homework.sh
+        scripts/homework.sh
