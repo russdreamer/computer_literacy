@@ -4,4 +4,4 @@
 This repository provides only exercises and tests to verify them. Lectures will not be laid out.
 <br/><br/>
 ## Available courses at this moment:
-1. [Git GUI](https://github.com/NAL-team/computer_literacy/tree/git_gui) : Git technology using GUI programs
+1. [Git GUI](https://github.com/russdreamer/computer_literacy/tree/git_gui) : Git technology using GUI programs
