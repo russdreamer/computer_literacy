@@ -6,3 +6,4 @@ However, some education materials are attached to each assignment. Those materia
 <br/><br/>
 ## Available courses at this moment:
 1. [Git GUI](https://github.com/russdreamer/computer_literacy/tree/git_gui) : Git technology using GUI programs
+2. [Shell basic](https://github.com/russdreamer/computer_literacy/tree/shell_basic) : basics of Unix bash/shell
