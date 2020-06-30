@@ -46,7 +46,8 @@ mkdir repo
 cd repo
 
 echo "starting first.sh..."
-sh ../first.sh && echo "first.sh has been completed" || { echo "first.sh ran with an error"; exit 1; }
+ERROR=$(sh ../first.sh 2>&1 1>/dev/null)
+test "$ERROR" = "" && echo "first.sh has been completed" || { echo -e "first.sh ran with an error: \n $ERROR"; exit 1; }
 
 echo "Checking first.sh result..."
 
@@ -118,7 +119,8 @@ echo "first.sh result is correct!"
 
 cd ..
 echo "starting second.sh..."
-sh ../second.sh && echo "second.sh has been completed" || { echo "second.sh ran with an error"; exit 1; }
+ERROR=$(sh ../second.sh 2>&1 1>/dev/null)
+test "$ERROR" = "" && echo "second.sh has been completed" || { echo -e "second.sh ran with an error: \n $ERROR"; exit 1; }
 
 echo "Checking second.sh result..."
 
@@ -176,7 +178,8 @@ echo "second.sh result is correct!"
 
 cd ..
 echo "starting third.sh..."
-sh ../third.sh && echo "third.sh has been completed" || { echo "third.sh ran with an error"; exit 1; }
+ERROR=$(sh ../third.sh 2>&1 1>/dev/null)
+test "$ERROR" = "" && echo "third.sh has been completed" || { echo -e "third.sh ran with an error: \n $ERROR"; exit 1; }
 
 echo "Checking third.sh result..."
 
