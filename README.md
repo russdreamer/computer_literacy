@@ -15,7 +15,8 @@ There are 2 playlists that help you to cope the exercises: </br>
 ## Exercise:
 
 - [ ]  Create a folder with a project on your computer
-- [ ]  Create text file named "weather.info" with no extra extension
+- [ ]  Install [Sublime](https://www.sublimetext.com/)
+- [ ]  Using  Sublime create text file named "weather.info" with no extra extension
 - [ ]  Write a line with the weather and date into this txt file formatted: "24.05.2020 : +14"
 - [ ]  Install [SourceTree](https://www.sourcetreeapp.com/)
 - [ ]  Create a local repository inside the current project folder via SourceTree
